@@ -7,12 +7,15 @@ return {
 			sources = {
 				--C/C++
 				null_ls.builtins.formatting.clang_format,
+				null_ls.builtins.diagnostics.cpplint,
 				--haskell
 				null_ls.builtins.formatting.fourmolu,
 				--lua
 				null_ls.builtins.formatting.stylua,
+				null_ls.builtins.diagnostics.luacheck,
 				--python
 				null_ls.builtins.formatting.black,
+				null_ls.builtins.diagnostics.flake8,
 			},
 		})
 
