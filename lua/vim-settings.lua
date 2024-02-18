@@ -7,8 +7,8 @@ vim.cmd("set shiftwidth=4")
 vim.g.mapleader = " "
 
 -- Remap jk and kj to Esc in insert mode
-vim.api.nvim_set_keymap('i', 'jk', '<Esc>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('i', 'kj', '<Esc>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap("i", "jk", "<Esc>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("i", "kj", "<Esc>", { noremap = true, silent = true })
 
 -- Enable syntax highlighting
 vim.o.syntax = true
