@@ -1,10 +1,14 @@
---Tab expansion settings
+-- Tab expansion settings
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 
+-- Leader key
 vim.g.mapleader = " "
+
+-- Disable mouse
+vim.cmd("set mouse=")
 
 -- Remap jk and kj to Esc in insert mode
 vim.api.nvim_set_keymap("i", "jk", "<Esc>", { noremap = true, silent = true })
